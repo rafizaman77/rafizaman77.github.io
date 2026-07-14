@@ -1,0 +1,102 @@
+html,
+body {
+  background: #fff;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: #000;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 100%;
+  overflow-wrap: break-word;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 3rem;
+}
+
+hr {
+  margin: 2rem 0;
+  text-align: center;
+  border: 0;
+}
+
+hr:before {
+  content: "/////";
+}
+
+hr:after {
+  content: attr(data-content) "/////";
+}
+
+p {
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+*:target {
+  background: #ff0;
+}
+
+.w {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  color: green;
+}
+
+a:visited {
+  color: #006400;
+}
+
+a:hover {
+  color: #32cd32;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #228b22;
+}
+
+.profile-image {
+  width: 200px;
+  height: auto;
+  aspect-ratio: 490 / 762;
+  object-fit: cover;
+  float: right;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  border-radius: 15px;
+}
+
+@media (max-width: 512px) {
+  .profile-image {
+    width: 100%;
+    max-width: 280px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
