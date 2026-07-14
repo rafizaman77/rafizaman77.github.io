@@ -86,8 +86,9 @@ a:active {
   aspect-ratio: 490 / 762;
   object-fit: cover;
   float: right;
-  margin-left: 2rem;
-  margin-right: 1rem;
+  margin-left: 2.75rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
   border-radius: 15px;
 }
 
